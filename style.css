@@ -6,6 +6,7 @@ canvas{
     width: 100%;
     padding: auto;
     border: 1px solid black;
+    background-image: "/img/fondo.png"
 }
 .contenedor-canvas{
     height: 30%;
