@@ -4,7 +4,6 @@ let mat = [];// Arreglo que luego se hace una matriz para los puntos
 let col = 100;//Numero de Columnas de la matriz (mat)
 let fila = 100;//Numero de filas de la matriz (mat)
 let arrC = []; // arrC arreglo que guarda promedios del punto C;
-
 function cargarMat(mat) {
     for (let i = 0; i < fila; i++) {
         mat[i] = [];
@@ -16,6 +15,7 @@ function cargarMat(mat) {
     }
 }
 cargarMat(mat);
+
 console.table(mat);
 
 function valorMaxTotal(mat) {
